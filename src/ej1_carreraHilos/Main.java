@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //Distancia máxima -> 100m
         //Distancia de inicio -> 0m
-        //Avanzar mínimo 1 metro y máximo, 4 metros
+        //Avanzar mínimo 1 metro y máximo, 5 metros
         //3 animales: tortuga, liebre, serpiente
         //Hacer la carrera
         CarreraHilos r1 = new CarreraHilos("Tortuga");
