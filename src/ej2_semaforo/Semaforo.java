@@ -4,7 +4,7 @@ public class Semaforo implements Runnable {
 
     @Override
     public void run() {
-        for(int i = 0; i <= 3; i++){
+        for(int i = 0; i < 3; i++){
             try {
                 System.out.println("VERDE");
                 Thread.sleep(2000);
