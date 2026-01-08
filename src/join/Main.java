@@ -10,7 +10,7 @@ public class Main {
 
         //3. Arrancar el hilo
         th.start();
-        System.out.println("Espero que el trabajador termine con join.");
+        System.out.println("Main: espero que el trabajador termine con join.");
         try {
             th.join();
         } catch (InterruptedException e) {
